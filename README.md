@@ -187,24 +187,7 @@ AVERAGE(tempo)
 - DAX
 - CSV Dataset
 
----
-
-## 📁 Project Structure
-
-```text
-Spotify-Music-Analytics-Dashboard
-│
-├── Dataset
-│   └── spotify_cleaned.csv
-│
-├── Dashboard
-│   └── Spotify_Dashboard.pbix
-│
-├── Images
-│   └── Dashboard_Screenshot.png
-│
-└── README.md
-```
+ 
 
 ---
 
