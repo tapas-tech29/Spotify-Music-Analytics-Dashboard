@@ -185,7 +185,7 @@ Aspiring Data Analyst | Power BI | SQL | Excel
 
 🔗 GitHub: https://github.com/tapas-tech29
 
-🔗 LinkedIn: Add Your LinkedIn Profile
+🔗 LinkedIn:(https://www.linkedin.com/in/tapas-kumar-behera-670813239)
 
 ---
 
