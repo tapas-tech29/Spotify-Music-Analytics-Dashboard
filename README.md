@@ -196,7 +196,7 @@ AVERAGE(tempo)
 > Add your dashboard screenshot below
 
 ```md
-![Dashboard Preview](Images/Dashboard_Screenshot.png)
+![Dashboard Preview]( https://github.com/tapas-tech29/Spotify-Music-Analytics-Dashboard/blob/main/Dashboard_screenshort.png)
 ```
 
 ---
