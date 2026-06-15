@@ -1,11 +1,9 @@
 # 🎵 Spotify Music Analytics Dashboard
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Data Analytics](https://img.shields.io/badge/Data%20Analytics-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-FFB000?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![CSV](https://img.shields.io/badge/CSV-Dataset-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Analysis-blue?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Cleaning-green?style=for-the-badge)
+![Data Analytics](https://img.shields.io/badge/Data-Analytics-orange?style=for-the-badge)
 
 ---
 
@@ -13,200 +11,167 @@
 
 The **Spotify Music Analytics Dashboard** is an interactive Power BI project designed to analyze Spotify music data and uncover insights related to artist performance, song popularity, music trends, and content distribution.
 
-This project demonstrates the complete data analytics workflow including:
-
-✅ Data Cleaning  
-✅ Data Transformation  
-✅ Data Modeling  
-✅ DAX Calculations  
-✅ Dashboard Development  
-✅ Data Storytelling  
+The dashboard provides a comprehensive view of Spotify tracks through KPI analysis, trend exploration, artist rankings, and song performance metrics. This project demonstrates practical skills in **Data Cleaning, Data Modeling, DAX Calculations, Data Visualization, and Business Intelligence Reporting** using Power BI.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
-- Analyze Spotify music trends over time
-- Identify top-performing artists and songs
-- Measure overall music popularity
-- Understand music characteristics
-- Compare explicit and non-explicit content
-- Create an interactive dashboard for data-driven insights
+* Analyze Spotify music trends over time
+* Identify top-performing artists and songs
+* Measure overall music popularity
+* Understand music characteristics such as energy and danceability
+* Compare explicit and non-explicit tracks
+* Create an interactive dashboard for data-driven insights
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool               | Purpose                        |
+| ------------------ | ------------------------------ |
+| Power BI Desktop   | Dashboard Development          |
+| Power Query        | Data Cleaning & Transformation |
+| DAX                | KPI & Calculated Measures      |
+| CSV Dataset        | Data Source                    |
+| Data Visualization | Business Insights              |
+
+---
+
+## 📈 Dashboard Features
+
+### KPI Cards
+
+✅ Total Tracks
+
+✅ Average Popularity
+
+✅ Average Energy
+
+✅ Average Danceability
+
+✅ Average Tempo
+
+### Interactive Visualizations
+
+🏆 Top 10 Artists by Average Popularity
+
+📈 Popularity Trend Over the Years
+
+🎵 Songs Released by Year
+
+🅴 Explicit vs Non-Explicit Tracks
+
+🌟 Top 10 Most Popular Songs
+
+🎤 Top 10 Artists by Number of Tracks
 
 ---
 
 ## 📂 Dataset Information
 
-The dataset contains Spotify track-level information such as:
+The dataset contains:
 
-| Column | Description |
-|----------|------------|
-| id | Unique Track Identifier |
-| name | Song Name |
-| artists | Artist Name |
-| year | Release Year |
-| popularity | Popularity Score |
-| danceability | Danceability Score |
-| energy | Energy Score |
-| valence | Musical Positivity |
-| acousticness | Acousticness Score |
-| speechiness | Speech Content Score |
-| instrumentalness | Instrumentalness Score |
-| liveness | Live Performance Probability |
-| tempo | Tempo (BPM) |
-| explicit | Explicit Content Indicator |
-| duration_min | Song Duration (Minutes) |
+* Track ID
+* Song Name
+* Artist Name
+* Release Year
+* Popularity Score
+* Danceability
+* Energy
+* Valence
+* Acousticness
+* Speechiness
+* Instrumentalness
+* Liveness
+* Tempo (BPM)
+* Explicit Indicator
+* Duration (Minutes)
 
 ---
 
-## 🧹 Data Cleaning Process
+## 🧹 Data Cleaning & Preparation
 
-The dataset was cleaned and transformed using Power Query.
+The following transformations were performed:
 
-### Steps Performed
+✔ Removed unnecessary columns
 
-- Removed unnecessary columns
-- Corrected data types
-- Handled missing values
-- Renamed columns
-- Converted duration from milliseconds to minutes
-- Optimized dataset structure
-- Verified numerical columns for analysis
+✔ Corrected data types
 
----
+✔ Handled missing values
 
-## 📊 Dashboard KPIs
+✔ Renamed columns for readability
 
-The dashboard includes the following KPIs:
+✔ Converted duration from milliseconds to minutes
 
-🎵 Total Tracks
+✔ Verified numerical columns for accurate aggregation
 
-🔥 Average Popularity
-
-⚡ Average Energy
-
-💃 Average Danceability
-
-🎼 Average Tempo
+✔ Optimized dataset structure for dashboard development
 
 ---
 
-## 📈 Dashboard Analysis
+## 📄 Dashboard Analysis
 
-### 🏆 Top 10 Artists by Average Popularity
+### 1️⃣ Artist Performance Analysis
 
-Identifies artists with the highest average popularity scores.
+* Top 10 Artists by Average Popularity
+* Top 10 Artists by Number of Tracks
+* Artist Ranking Insights
 
----
+### 2️⃣ Music Popularity Analysis
 
-### 📈 Popularity Trend Over the Years
+* Average Popularity KPI
+* Most Popular Songs
+* Popularity Trends Across Years
 
-Analyzes how music popularity has evolved over time.
+### 3️⃣ Music Production Trends
 
----
+* Songs Released by Year
+* Growth in Music Releases
+* Historical Music Trends
 
-### 🎵 Songs Released by Year
+### 4️⃣ Content Distribution Analysis
 
-Shows music production growth across different years.
-
----
-
-### 🅴 Explicit vs Non-Explicit Tracks
-
-Compares the distribution of explicit and non-explicit content.
-
----
-
-### 🌟 Top 10 Most Popular Songs
-
-Highlights tracks with the highest popularity scores.
-
----
-
-### 🎤 Top 10 Artists by Number of Tracks
-
-Measures artist productivity and content contribution.
-
----
-
-## 🎛 Interactive Filters
-
-The dashboard contains dynamic filters for:
-
-- 📅 Year
-- 🎤 Artist
-- 🅴 Explicit Content
-
-These filters allow users to explore the data interactively.
-
----
-
-## 🧮 DAX Measures
-
-```DAX
-Total Songs =
-COUNT(id)
-```
-
-```DAX
-Avg Popularity =
-AVERAGE(popularity)
-```
-
-```DAX
-Avg Energy =
-AVERAGE(energy)
-```
-
-```DAX
-Avg Danceability =
-AVERAGE(danceability)
-```
-
-```DAX
-Avg Tempo =
-AVERAGE(tempo)
-```
+* Explicit vs Non-Explicit Tracks
+* Content Composition Overview
+* Listener Preference Insights
 
 ---
 
 ## 💡 Key Insights
 
-- A small number of artists dominate popularity rankings.
-- Music production has increased significantly over time.
-- Highly popular songs often have strong energy and danceability.
-- Explicit content forms a considerable portion of modern music releases.
-- Listener preferences continue to evolve across different years.
+* A small number of artists dominate popularity rankings.
+* Music production has increased significantly over recent years.
+* Popular songs generally exhibit strong audience engagement.
+* Explicit content represents a notable portion of modern music releases.
+* Popularity trends vary across years, reflecting changing listener preferences.
 
 ---
 
-## 🛠 Tools & Technologies
+## 📂 Repository Files
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- CSV Dataset
+📄 Spotify_Dashboard.pbix
 
- 
+📊 spotify_cleaned_dataset.csv
 
----
+📑 Spotify Music Analytics Report.pdf
 
- 
-```
+🖼️ Dashboard_Screenshot.png
+
+📄 README.md
 
 ---
 
-## 🚀 Skills Demonstrated
+## 🚀 Business Value
 
-- Data Cleaning
-- Data Transformation
-- Power Query
-- DAX
-- Dashboard Design
-- Data Visualization
-- Business Intelligence
-- Data Storytelling
-- Analytical Thinking
+This dashboard helps stakeholders:
+
+* Understand music industry trends
+* Analyze artist performance
+* Identify high-performing songs
+* Monitor popularity patterns
+* Evaluate content distribution
+* Support data-driven decision-making
 
 ---
 
@@ -214,13 +179,14 @@ AVERAGE(tempo)
 
 **Tapas Kumar**
 
-Aspiring Data Analyst | Power BI Enthusiast | Data Analytics Learner
+Aspiring Data Analyst | Power BI | SQL | Excel
 
-### Connect With Me
+📧 [tapas29122003@gmail.com](mailto:tapas29122003@gmail.com)
 
-- LinkedIn: Add Your LinkedIn Profile
-- GitHub: Add Your GitHub Profile
+🔗 GitHub: https://github.com/tapas-tech29
+
+🔗 LinkedIn: Add Your LinkedIn Profile
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ If you found this project useful, feel free to star the repository.
